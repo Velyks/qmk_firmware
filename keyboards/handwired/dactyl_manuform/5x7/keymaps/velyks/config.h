@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define USE_SERIAL
+#define USE_I2C
 
 //define MASTER_RIGHT
 #define SPLIT_HAND_PIN F4
@@ -25,6 +25,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
+
+#define BOOTMAGIC_LITE_ROW_RIGHT 0
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 
 #define SPLIT_USB_DETECT
 
